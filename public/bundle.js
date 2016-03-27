@@ -24161,6 +24161,10 @@
 
 	'use strict';
 
+	var _Notes = __webpack_require__(230);
+
+	var _Notes2 = _interopRequireDefault(_Notes);
+
 	var _helpers = __webpack_require__(211);
 
 	var _helpers2 = _interopRequireDefault(_helpers);
@@ -24171,7 +24175,7 @@
 	var Router = __webpack_require__(159);
 	var Repos = __webpack_require__(228);
 	var UserProfile = __webpack_require__(229);
-	var Notes = __webpack_require__(230);
+
 	var ReactFireMixin = __webpack_require__(233);
 	var Firebase = __webpack_require__(234);
 
@@ -24230,7 +24234,7 @@
 	      React.createElement(
 	        'div',
 	        { className: 'col-md-4' },
-	        React.createElement(Notes, {
+	        React.createElement(_Notes2.default, {
 	          username: this.props.params.username,
 	          notes: this.state.notes,
 	          addNote: this.handleAddNote
