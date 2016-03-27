@@ -1,10 +1,10 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var Router = require('react-router').Router;
-var HashHistory = require('react-router').hashHistory;
-var routes = require('./config/routes');
+import React  from 'react';
+import ReactDOM  from 'react-dom';
+import { Router } from 'react-router';
+import { hastHistory } from 'react-router';
+import routes  from './config/routes';
 
 ReactDOM.render(
-  <Router history={HashHistory}>{routes}</Router>,
+  <Router history={hastHistory}>{routes}</Router>,
   document.getElementById('app')
 )
