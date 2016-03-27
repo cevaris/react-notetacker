@@ -1,9 +1,9 @@
-import React from 'react'
-import Repos from './Github/Repos'
-import UserProfile from './Github/UserProfile'
-import Notes from './Notes/Notes'
-import getGithubInfo from '../utils/helpers'
-import Rebase from 're-base'
+import React from 'react';
+import Repos from './Github/Repos';
+import UserProfile from './Github/UserProfile';
+import Notes from './Notes/Notes';
+import getGithubInfo from '../utils/helpers';
+import Rebase from 're-base';
 
 const base = Rebase.createClass('https://blazing-fire-5626.firebaseio.com/');
 
