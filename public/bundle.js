@@ -24034,8 +24034,14 @@
 	        { className: 'navbar navbar-default', role: 'navigation' },
 	        React.createElement(
 	          'div',
-	          { className: 'col-sm-7 col-sm-offset-2', style: { marginTop: 15 } },
-	          React.createElement(SearchGithub, null)
+	          { className: 'col-sm-12', style: { marginTop: 15 } },
+	          React.createElement('div', { className: 'col-sm-1' }),
+	          React.createElement(
+	            'div',
+	            { className: 'col-sm-10' },
+	            React.createElement(SearchGithub, null)
+	          ),
+	          React.createElement('div', { className: 'col-sm-1' })
 	        )
 	      ),
 	      React.createElement(

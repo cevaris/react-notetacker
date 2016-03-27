@@ -6,8 +6,12 @@ var Main = React.createClass({
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">
-          <div className="col-sm-7 col-sm-offset-2" style={{marginTop: 15}}>
-            <SearchGithub />
+          <div className="col-sm-12" style={{marginTop: 15}}>
+            <div className="col-sm-1"></div>
+            <div className="col-sm-10">
+              <SearchGithub />
+            </div>
+            <div className="col-sm-1"></div>
           </div>
         </nav>
         <div className="container">
